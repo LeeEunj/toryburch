@@ -1,0 +1,438 @@
+*{padding: 0; border: 0; margin: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+header .nav1{
+    background-color: #f1f1f1;
+    height: 48px;
+}
+
+header .nav1 .nav1_warpper{
+    width: 1466px;
+    margin: 0 auto;
+}
+
+header .nav1 .nav1_warpper ul{
+    float: right;
+}
+
+header .nav1 .nav1_warpper li{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 19px;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+}
+header .nav1 .nav1_warpper li:nth-child(2){
+    padding-right: 17px;
+    padding-left: 37px;
+}
+header .nav1 .nav1_warpper img{
+    margin-top: -2px;
+}
+header .nav1 .nav1_warpper a{
+    color: #444444;
+}
+header .nav2{
+    width: 100%;
+/*    margin: 0 auto;*/
+}
+header .nav2 .shot{
+    float: right;
+    margin-top: -122px;
+}
+header .nav2 .nav2_warpper{
+    width: 1466px;
+    margin: 0 auto;
+}
+header .nav2 .nav2_warpper img:nth-child(1){
+    margin-top: 47px;
+}
+header .nav2 .logo{
+    float: left;
+    height: 151px;
+    display: inline-block;
+}
+
+header .nav2 .nav2_warpper .dropdownmenu{
+    float: right;
+    margin-right: -209px;
+}
+header .nav2 .nav2_warpper .dropdownmenu li{
+    float: left;
+/*    position: relative;*/
+    margin: 66px 34px;
+}
+header .nav2 .nav2_warpper .dropdownmenu li:nth-child(6){
+    margin-right: 0;
+}
+header .nav2 .nav2_warpper .dropdownmenu a{
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    display: block;
+}
+header .nav2 .nav2_warpper .dropdownmenu .sub_menu{
+/*    display: none;*/
+/*    width: 1920px;*/
+    display: block;
+    
+}
+header .nav2 .nav2_warpper .dropdownmenu .sub_menu li{
+    position: absolute;
+/*    display: block;*/
+    text-align: center;
+}
+header .nav2 .nav2_warpper .dropdownmenu li:hover ul{
+    display: block;
+    background-color: orange;
+    
+    
+}
+/*----------------------------------------------------header_end-----------------------------------------------------------*/
+.banner{
+    width: 1466px;
+    margin: 0 auto;
+    margin-top: 74px;
+    position: relative;
+}
+.banner_wrap{
+    background-color: #de2c12;
+    width: 894px;
+    height: 632px;
+    text-align: center;
+    display: table;
+    color: white;
+    float: right;
+    position: absolute;
+    top: 106;
+    left: 627;
+}
+.banner_wrap section{
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner_wrap section h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 19px;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+    font-style: italic;
+    line-height: 0;
+    
+}
+.banner_wrap section p{
+    line-height: 2.8;
+    font-size: 16px;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    letter-spacing: 0.075em;
+    
+}
+/*----------------------------------------------------banner_end-----------------------------------------------------------*/
+.banner2{
+    width: 1466px;
+    margin: 0 auto;
+    margin-top: 158px;
+}
+.banner2 section{
+    float: left;
+    padding-left: 195px;
+    margin-top: 124px;
+}
+.banner2 h2{
+    text-align: right;
+    color: black;
+    font-size: 37.96px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+.banner2 p{
+    font-size: 16px;
+    text-align: right;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    letter-spacing: 0.075em;
+    line-height: 2.5em;
+    margin-bottom: 40px;
+} 
+.banner2 a{
+    box-sizing: border-box;
+    border: 2px solid #002144;
+    padding: 23px 63px 23px 63px;
+    float: right;
+    font-weight: 500px;
+    height: 60px;
+}
+.banner2 .text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0.65em;
+}
+.banner2 img{
+    vertical-align: middle;
+    margin-left: 18px;
+    display: inline;
+}
+.banner2 img:last-child{
+    float: right;
+}
+
+/*----------------------------------------------------banner2_end-----------------------------------------------------------*/
+.video{
+    width: 1218px;
+    margin-top: 168px;
+    position: relative;
+    margin: 168 auto 43px auto;
+}
+.video a{
+    position: absolute;
+    top: 221;
+    left: 437;
+}
+.video p{
+    margin-top: 44px;
+    font-size: 15px;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    letter-spacing: 0.075em;
+    line-height: 2em;
+}
+/*----------------------------------------------------video_end-----------------------------------------------------------*/
+.list{
+    background-image: url(../img/main_bg.png);
+    background-size: cover;
+/*    background-position: bottom 30%;*/
+    height: 566px;
+    margin-top: 240px;
+    position: relative;
+}
+.list ul{
+    width: 1466px;
+    position: absolute;
+    top: -155;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.list li{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 512px;
+}
+.list ul li:nth-child(odd){
+    margin-top: 75px;
+}
+.list li a p{
+    color: #002144;
+    padding: 24px 113px 24px 114px;
+    box-sizing: border-box;
+    border: 6px solid #002144;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.075;
+    position: absolute;
+    top: 512;
+}
+.list li:hover p{
+    display: block;
+    top: 435;
+    transition: 0.3s;
+}
+.list li:hover img{
+}
+/*----------------------------------------------------list_end-----------------------------------------------------------*/
+.banner3{
+    width: 1466px;
+    margin: 0 auto;
+    margin-top: 163px;
+    margin-bottom: 161px;
+}
+.banner3 > img{
+}
+.banner3 .banner3_wrap{
+    background-image: url(../img/main_new%20letter_bg.png);
+    width: 754px;
+    height: 541px;
+    display: inline-block;
+    margin-left: -6px;
+    margin-bottom: 43px;
+}
+.banner3 .banner3_wrap h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.070;
+    font-style: italic;
+    margin: 145px auto 30px auto;
+}
+.banner3 .banner3_wrap .text:before{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #8b8b8b;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 9px;
+}
+.banner3 .banner3_wrap p{
+    text-align: center;
+    font-size: 13px;
+    color: #868686;
+    letter-spacing: 0.045;
+    font-weight: 300;
+    margin: 9px auto 33px auto;
+    line-height: 1.4;
+    font-family: "Noto Sans CJK KR", sans-serif;
+}
+.banner3 .banner_inner{
+    width: 467px;
+    height: 59px;
+    box-sizing: border-box;
+    border: 3px solid #002144;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+.banner3 .banner_inner input{
+    display: inline-block;
+    font-size: 15px;
+    color: #8b8b8b;
+    letter-spacing: 0.045;
+    font-weight: 300;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    position: absolute;
+    margin: 15px;
+}
+.banner3 .banner_inner a > p{
+    background-color: #002144;
+    padding: 20px 36px 21px 37px;
+    color: white;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: -2;
+    top: -12;
+    letter-spacing: 1.3;
+}
+.banner3 .banner_inner .logo{
+    width: 131px;
+    margin: 0 auto;
+}
+/*----------------------------------------------------banner3_end-----------------------------------------------------------*/
+.banner4{
+    width: 246px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+.banner4 h3{
+    display: inline-block;
+/*    vertical-align: middle;*/
+    color: #272727;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5;
+    margin: 0 6px;
+}
+.banner4 img{
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.banner4 .wrap nav{
+    background-image: url(../img/main_store_bg.png);
+    background-repeat: no-repeat;
+    width: 1218px;
+    height: 258px;
+    margin-top: 13px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner4 .wrap nav .nav_inner{
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #002144;
+    top: 100;
+    left: 378;
+    position: absolute;
+    padding: 22px 178px 22px 178px;
+}
+.banner4 .wrap nav .nav_inner p{
+    font-size: 15px;
+/*    text-align: center;*/
+     color: #002144;
+    letter-spacing: 0.045;
+    font-weight: 300;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    display: inline-block;
+    margin-right: 5px;
+}
+/*----------------------------------------------------banner4_end-----------------------------------------------------------*/
+footer .footer_head{
+    width: 100%;
+    height: 67px;
+    margin-bottom: 23px;
+    background-color: #f9f9f9;
+    display: table;
+}
+footer .footer_head img{
+    text-align: center;
+    width: 219px;
+    margin: 12 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+footer ul{
+    width: 441px;
+    margin: 0 auto;
+}
+footer li{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    float: left;
+    font-size: 12px;
+    letter-spacing: 0.020;
+    color: #707070;
+    border-right: 1px solid #707070;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-bottom: 23px;
+}
+footer li:nth-child(5){
+    border: none;
+}
+footer p{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    color: #868686;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+}
+footer .txt{
+    margin: 26px auto 64px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

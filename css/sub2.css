@@ -1,0 +1,584 @@
+*{padding: 0; border: 0; margin: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+header .nav1{
+    background-color: #f1f1f1;
+    height: 48px;
+}
+
+header .nav1 .nav1_warpper{
+    width: 1466px;
+    margin: 0 auto;
+}
+
+header .nav1 .nav1_warpper ul{
+    float: right;
+}
+
+header .nav1 .nav1_warpper li{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 19px;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+}
+header .nav1 .nav1_warpper li:nth-child(2){
+    padding-right: 17px;
+    padding-left: 37px;
+}
+header .nav1 .nav1_warpper img{
+    margin-top: -2px;
+}
+header .nav1 .nav1_warpper a{
+    color: #444444;
+}
+header .nav2{
+    width: 100%;
+/*    margin: 0 auto;*/
+    z-index: 55;
+    position: relative;
+    background-color: white;
+}
+header .nav2 .shot{
+    float: right;
+    margin-top: -122px;
+}
+header .nav2 .nav2_warpper{
+    width: 1466px;
+    margin: 0 auto;
+}
+header .nav2 .nav2_warpper img:nth-child(1){
+    margin-top: 47px;
+}
+header .nav2 .logo{
+    float: left;
+    height: 151px;
+    display: inline-block;
+}
+
+header .nav2 .nav2_warpper .dropdownmenu{
+    float: right;
+    margin-right: -209px;
+    
+}
+header .nav2 .nav2_warpper .dropdownmenu li{
+    float: left;
+/*    position: relative;*/
+    margin: 66px 34px;
+}
+header .nav2 .nav2_warpper .dropdownmenu li:nth-child(6){
+    margin-right: 0;
+}
+header .nav2 .nav2_warpper .dropdownmenu a{
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+header .nav2 .nav2_warpper .dropdownmenu .sub_menu{
+/*    display: none;*/
+/*    width: 1920px;*/
+    display: block;
+    
+}
+header .nav2 .nav2_warpper .dropdownmenu .sub_menu li{
+    position: absolute;
+/*    display: block;*/
+    text-align: center;
+}
+header .nav2 .nav2_warpper .dropdownmenu li:hover ul{
+    display: block;
+    background-color: orange;
+}
+/*----------------------------------------------------header_end-----------------------------------------------------------*/ 
+
+.banner1{
+    width: 1288px;
+    margin: 0 auto;
+}
+.banner1 p{
+    font-size: 15px;
+    color: #3b3b3b;
+    letter-spacing: 0.075em;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    line-height: 1.8;
+    margin-top: 77px;
+    font-weight: 400;
+    text-align: left;
+}
+.banner2{
+    background-color: #f7eeee;
+/*    padding: 185px 443px 186px 443px;*/
+    padding-top: 185px;
+    margin-top: 126px;
+    padding-bottom: 186px;
+}
+.banner2 img{
+    margin-bottom: 29px;
+    width: 587px;
+}
+.banner2 p{
+    font-size: 15px;
+    color: #575757;
+    letter-spacing: 0.075em;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    line-height: 1.75;
+    text-align: center;
+}
+/*----------------------------------------------------banner2_end-----------------------------------------------------------*/ 
+.banner3{
+    width: 1466px;
+    margin: 0 auto;
+}
+.banner3 ol{
+    margin-top: 111px;
+}
+.banner3 ol li{
+    float: left;
+}
+.banner3 ol li .wrap{
+    border-top: 1px solid #bbbbbb;
+    width: 331px;
+}
+.banner3 ol li .wrap h4{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    margin-top: 26px;
+    margin-bottom: 35px;
+    font-size: 19px;
+    color: #383838;
+    font-weight: 450;
+    text-align: left;
+}
+.banner3 ol li .wrap p{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 300;
+    color: #252525;
+    margin-bottom: 100px;
+    text-align: left;
+}
+.btn a{
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #002144;
+    width: 286px;
+    padding: 24px 0 23px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-size: 15px;
+    color: #002144;
+    letter-spacing: 0.045em;
+}
+.btn a:hover{
+    color: white;
+    background-color: #002144;
+}
+.btn a:before{
+    content: "";  
+    width: 577px;
+    height: 1px;
+    background: linear-gradient( to right, white, #e4e4e4, white );    
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: -580;
+    opacity: 0.8
+}
+.btn a:after{
+    content: "";  
+    width: 577px;
+    height: 1px;
+    background: linear-gradient( to right, white, #e4e4e4, white);    
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: 296;
+    opacity: 0.8
+}
+
+/*----------------------------------------------------banner3_end-----------------------------------------------------------*/ 
+.banner4{
+    width: 1326px;
+    margin: 0 auto;
+    margin-top: 166px;
+    position: relative;
+    margin-bottom: 125px;
+}
+.banner4 .banner4_wrap{
+    width: 500px;
+    height: 463px;
+    background-color: #f6f6f6;
+    display: inline-block;
+    position: absolute;
+    top: 44px;
+}
+.banner4 .banner4_wrap h3{
+    text-align: center;
+    padding: 22px 108px;
+    background-color: white;
+    margin-top: 39px;
+    margin-left: 87px;
+    margin-bottom: 95px;
+    font-size: 24px;
+    color: #272727;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+.banner4 .banner4_wrap p:nth-child(2):before{
+    content: "";
+    background-color: #faea37;
+    width: 99px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 40.1%;
+    transform: translateX(-50%;);
+    z-index: -1;
+}
+.banner4 .banner4_wrap p:nth-child(2){
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 41px;
+}
+.banner4 .banner4_wrap p:nth-child(3):before{
+    content: "";
+    display: block;
+    background-color: #bcbcbc;
+    width: 35px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -22px;
+}
+.banner4 .banner4_wrap p:nth-child(3){
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-size: 15px;
+    color: #5e5e5e;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+/*----------------------------------------------------banner4_end-----------------------------------------------------------*/ 
+
+.banner5{
+    width: 1326px;
+    margin: 0 auto;
+}
+.banner5 li{
+    float: left;
+    position: relative;
+}
+.banner5 li:nth-child(2):before{
+    content: "";
+    display: block;
+    background-color: #767676;
+    height: 9px;
+    width: 9px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+    left: -10px;
+}
+.banner5 li:nth-child(2):after{
+    content: "";
+    display: block;
+    background-color: #767676;
+    height: 9px;
+    width: 9px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+    left: 481px;
+}
+
+.banner5 .col_4 p:nth-child(1){
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 39px;
+    color: #5e5e5e;
+}
+.banner5 .col_4 p:nth-child(1):before{
+    content: "";
+    display: block;
+    background-color: #bcbcbc;
+    width: 35px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 40px;
+}
+.banner5 .col_4 p:nth-child(3) ,p:nth-child(2){
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-size: 15px;
+    color: #5e5e5e;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    line-height: 1.5;
+}
+/*----------------------------------------------------banner5_end-----------------------------------------------------------*/ 
+.banner6{
+    width: 100%;
+    background-color: #f6e9e9;
+    height: 818px;
+    margin-top: 350px;
+    background-size: 100%;
+}
+.banner6 .banner6_inner{
+    width: 1466px;
+    margin: 0 auto;
+    position: relative;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner6 .banner6_inner img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner6 .banner6_wrap{
+    width: 500px;
+    height: 463px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: -224px;
+    left: 966px;
+}
+
+.banner6 .banner6_wrap p:nth-child(1):before{
+    content: "";
+    background-color: #faea37;
+    width: 99px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 40.1%;
+    top: 10;
+    transform: translateX(-50%;);
+    z-index: -1;
+}
+.banner6 .banner6_wrap p:nth-child(1){
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 37px;
+    margin-top: 147px;
+}
+.banner6 .banner6_wrap p:nth-child(2):before{
+    content: "";
+    display: block;
+    background-color: #bcbcbc;
+    width: 35px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -22px;
+}
+.banner6 .banner6_wrap p:nth-child(2),:nth-child(3){
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-size: 15px;
+    color: #5e5e5e;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+.banner6 .banner6_wrap p:nth-child(3){
+    margin-top: 39px;
+}
+/*----------------------------------------------------banner6_end-----------------------------------------------------------*/ 
+.banner7{
+    width: 1326px;
+    margin: 0 auto;
+}
+.banner7 li{
+    float: left;
+    position: relative;
+    margin-top: 167px;
+    margin-bottom: 167px;
+}
+.banner7 li:nth-child(2):before{
+    content: "";
+    display: block;
+    background-color: #767676;
+    height: 9px;
+    width: 9px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+    left: -10px;
+}
+.banner7 li:nth-child(2):after{
+    content: "";
+    display: block;
+    background-color: #767676;
+    height: 9px;
+    width: 9px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+    left: 440px;
+}
+
+.banner7 .col_4 p:nth-child(1){
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 39px;
+    color: #5e5e5e;
+}
+.banner7 .col_4 p:nth-child(1):before{
+    content: "";
+    display: block;
+    background-color: #bcbcbc;
+    width: 35px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 40px;
+}
+.banner7 .col_4 p:nth-child(3) ,p:nth-child(2){
+    font-family: "Noto Sans CJK KR", sans-serif;
+    font-size: 15px;
+    color: #5e5e5e;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    line-height: 1.5;
+}
+/*----------------------------------------------------banner6_end-----------------------------------------------------------*/ 
+.banner8{
+    width: 1466px;
+    margin: 0 auto;
+}
+.banner8 li{
+    float: left;
+    margin-bottom: 141px;
+}
+.banner8 li:nth-child(2){
+    background-color: #f6f6f6;
+    height: 463px;
+}
+.banner8 li:nth-child(2) p:nth-child(1){
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 39px;
+    color: #5e5e5e;
+    margin-top: 140px;
+}
+.banner8 .col_4 p:nth-child(1):before{
+    content: "";
+    display: block;
+    background-color: #bcbcbc;
+    width: 35px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 40px;
+}
+.banner8 li:nth-child(2) p:nth-child(1):before{
+    content: "";
+    background-color: #faea37;
+    width: 99px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%;);
+    z-index: -1;
+}
+.banner8 li:nth-child(2) p:nth-child(2),:nth-child(3){
+    line-height: 1.6;
+}
+.banner8 li:nth-child(2) p:nth-child(3){
+    margin-top: 20px;
+}
+/*--------------------------------------------------banner8_end-----------------------------------------------------------*/
+footer .footer_head{
+    width: 100%;
+    height: 67px;
+    margin-bottom: 23px;
+    background-color: #f9f9f9;
+    display: table;
+}
+footer .footer_head img{
+    text-align: center;
+    width: 219px;
+    margin: 12 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+footer ul{
+    width: 441px;
+    margin: 0 auto;
+}
+footer .list li{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    float: left;
+    font-size: 12px;
+    letter-spacing: 0.020;
+    color: #707070;
+    border-right: 1px solid #707070;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-bottom: 23px;
+}
+footer li:nth-child(5){
+    border: none;
+}
+footer p{
+    font-family: "Noto Sans CJK KR", sans-serif;
+    color: #868686;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+}
+footer .txt{
+    margin: 26px auto 64px auto;
+}
+
+
+
+
+
